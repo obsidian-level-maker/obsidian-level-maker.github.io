@@ -7,4 +7,4 @@ include:
   - README.md
 title: OBSIDIAN Level Maker
 description: Welcome to the Infinite Hells
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
