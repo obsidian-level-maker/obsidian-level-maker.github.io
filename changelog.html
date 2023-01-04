@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+  <title>OBSIDIAN Level Maker: Changelog</title>
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+
+</head>
+
+<body>
+
+  <nav class="navMenu">
+    <IMG SRC="logo.png" HEIGHT="110" BORDER=0 ALT="">
+    <ul>
+    <li><a href="./index.html">home</a></li>
+    <li><a href="./addons.html">addons</a></li>
+    <li><a href="./changelog.html">changelog</a></li>
+    <li><a href="./download.html">download</a></li>
+    <li><a href="https://github.com/obsidian-level-maker/Obsidian/wiki">Wiki</a></li>
+    <li><a href="https://github.com/obsidian-level-maker/Obsidian">github repo</a></li>
+  </ul>
+  </nav>  
+ 
+<br>
+<table style="margin-left: 250px;margin-right: auto;">
+
+  <tbody>
+    <tr>
+      <td>
+<h4>A summary of improvements and differences between versions can be found here.</h4>
+ </td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+
+<h3 dir="auto">Changes from V19->V20</h3>
+<ul dir="auto">
+<li>"Addon List" moved from File menu item to "Addons" top bar menu
+<ul>
+  <li>This menu will auto-populate with *.pk3 files that were in the /addons directory on startup</li>
+</ul>
+</li>
+<li>First-run tutorial added for users new to the interface; this can also be accessed from the Help menu</li>
+<li>"Surprise Me" added to top bar menu for randomization of different option categories (or all of them)</li>
+<li>"Compress Output" option added to File->Options menu. Will create a .zip or .pk3 from the generated WAD</li>
+<li>Default output path can now be specified from the File->Options menu and will use this instead of the last generated WAD location</li>
+<li>Logs are now stored on a rolling basis instead of replacing LOGS.txt on every run of the program. The size and number of retained logs can be customized from the File->Options menu</li>
+<li>String seeds can now be randomly generated using locale-specific wordlists (EN and RU for now) or a psuedo-password randomly generated string. Purely for cosmetic/entertainment value</li> 
+<li>Improved internationalization support
+  <ul>
+    <li>C++ and Lua strings added to .PO template file</li>
+  </ul>
+  <ul>
+    <li>Support for non-ASCII characters in program filepath</li>
+  </ul>
+  <ul>
+    <li>Near-complete RU locale translation file included by default</li>
+  </ul>
+  <ul>
+    <li>"Glossary" option added to Help menu to give translators a space to provide longer definition for specific terminology</li>
+  </ul>
+</li>
+<li>All module options now have a button to reset them to their default values</li>
+<li>Migration from Lua to LuaJIT for improved build times</li>
+<li>Drastic reduction in RAM usage during runs and memory freed after generation is complete</li>
+<li>Fixed and improved batch mode/CLI functionality; can now set individual option values as well as print out a complete module reference via command-line paramters</li>
+<li>"Alternate Shape Grammars" module added to use different level growth rules for applicable maps
+  <ul>
+    <li>"Boxes of Death" is the only option that has been added so far; new grammars will be added in future releases</li>
+  </ul>
+</li>
+<li>Full integration of Oblige v0.94 via the "Historical Versions" module. More Oblige versions will be folded into future releases</li>
+<li>Added support for the following Games
+  <ul>
+    <li>id Tech 0
+    <ul>
+      <li>Wolfenstein 3-D</li>
+    </ul>
+    <ul>
+      <li>Spear of Destiny</li>
+    </ul>
+    <ul>
+      <li>Noah's Ark 3D</li>
+    </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>id Tech 1
+    <ul>
+      <li>Chex Quest 3</li>
+    </ul>
+    <ul>
+      <li>HacX 1.2</li>
+    </ul>
+    <ul>
+      <li>Harmony</li>
+    </ul>
+    <ul>
+      <li>Hexen</li>
+    </ul>
+    <ul>
+      <li>Strife</li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+<li>Added "Engine" option to Build Settings module to select between id Tech 0 and id Tech 1. The former "Engine" option has been renamed to "Port" to reduce confusion</li>
+<li>Added the ability to save an animated GIF of the build process; this will be created in the same location as the generated WAD</li>
+<li>Can now optionally use the WAD filename or random wordlist as a source for the Title Screen graphic verbiage</li>
+<li>Many fixes and updates to the available prefab sets and Lua modules</li>
+</ul>
+
+<h3 dir="auto">Changes from V18->V19</h3>
+<ul dir="auto">
+<li>Changes that require a restart will automatically restart the program</li>
+<li>New GUI module widgets added: Sliders and Checkboxes</li>
+<li>Help links (question mark icon) added for most options</li>
+<li>New default GUI theme inspired by Blender</li>
+<li>GUI customization options added, including colors, fonts and widget styles</li>
+<li>GUI themes can be saved/loaded/reset to default</li>
+<li>Optional Single-Pane mode added to condense modules into a single scrolling column</li>
+<li>Filename prefix for generated WADs can now be customized</li>
+<li>Sound blocker lines added in many prefabs to slow the the spread of enemy alertness throughout the map</li>
+<li>Experimental support added for the EDGE and Eternity engines (binary and UDMF map output)</li>
+<li>Many new fabs, including terrain deformation, gun shop, wrecked vehicles, an explanded art gallery and more!</li>
+<li>IWAD Mode: Will automatically override other Obsidian parameters in an attempt to imitate original Doom/Doom 2 levels</li>
+<li>Linux configs and log storage moved to ~/.config/obsidian</li>
+<li>Many fixes and updates to the available prefab sets and Lua modules</li>
+</ul>
+
+	  <br><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</body>
+
+</html>
