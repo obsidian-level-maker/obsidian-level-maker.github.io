@@ -1,0 +1,157 @@
+@import "css/asciidoctor.css";
+@import "fonts/source-sans-3.css";
+
+a {
+  color: #E8E8E8;
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: #F0DEA3;
+  outline: 0;
+}
+
+body {
+    background: #282827;
+    color: #E8E8E8;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+#toc ul {
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+  list-style-type: none;
+}
+
+#toc.toc2 {
+  background: #282827;
+  border-right: 0 !important;
+  text-align: right;
+  background-image: url("images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: "left center";
+}
+
+#toc.toc2 > ul {
+  font-size: 1.15em;
+}
+
+@media screen and (min-width: 768px) {
+  body.toc2 {
+    padding-left: 10em;
+  }
+
+  #toc.toc2 {
+    width: 10em;
+    text-align: center;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: "center top";
+  }
+
+  #toc.toc2 > ul {
+    font-size: 1.25em;
+  }
+
+  body.toc2.toc-right {
+    padding-right: 10em;
+  }
+
+  #toc.toc2 #toctitle {
+    margin-top: 4em !important;
+  }  
+}
+
+@media screen and (min-width: 1280px) {
+  body.toc2 {
+    padding-left: 12.5em;
+  }
+
+  #toc.toc2 {
+    width: 15em;
+    text-align: center;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: "center top";
+  }
+
+  #toc.toc2 > ul {
+    font-size: 1.5em;
+  }
+
+  body.toc2.toc-right {
+    padding-right: 12.5em;
+  }
+
+  #toc.toc2 #toctitle {
+    margin-top: 5em !important;
+  }  
+}
+
+.admonitionblock > table td.content {
+  padding-left: 1.125em;
+  padding-right: 1.25em;
+  border-left: 1px solid #E8E8E8;
+  color: #E8E8E8;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  word-wrap: anywhere;
+}
+
+.admonitionblock > table td.icon .title {
+  color: #E8E8E8;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.subheader,
+.admonitionblock td.content > .title,
+.audioblock > .title,
+.exampleblock > .title,
+.imageblock > .title,
+.listingblock > .title,
+.literalblock > .title,
+.stemblock > .title,
+.openblock > .title,
+.paragraph > .title,
+.quoteblock > .title,
+table.tableblock > .title,
+.verseblock > .title,
+.videoblock > .title,
+.dlist > .title,
+.olist > .title,
+.ulist > .title,
+.qlist > .title,
+.hdlist > .title {
+  line-height: 1.45;
+  color: #F0DEA3;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+h1,
+h2,
+h3,
+#toctitle,
+.sidebarblock > .content > .title,
+h4,
+h5,
+h6 {
+  color: #F0DEA3;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+}
