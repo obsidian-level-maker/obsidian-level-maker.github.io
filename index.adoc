@@ -55,57 +55,67 @@ The current stable version of Obsidian is V20, "Gates of Tartarus". Pre-built pa
 
 .Obsidian V20 Build 2023.12.26 - MSVC 64-bit
 * Suitable for Windows Vista or newer.
-* https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win64-msvc.zip[Download Here]
+* https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win64-msvc.zip[Download from Github]
 
 NOTE: Users may need to install the https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist[Microsoft Visual C++ Redsitributable] to run.
 
 .Obsidian V20 Build 2023.12.26 - MinGW 32-bit
 * Suitable for Windows XP or newer. Minimum Pentium 4 CPU required.
-* https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win32-mingw.zip[Download Here]
+* https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win32-mingw.zip[Download from Github]
 
 The following packages are provided as a courtesy for users wanting to preview upcoming features in the next version of Obsidian.
 
 WARNING: These come with NO guarantees of stability.
 
 .Obsidian V21 Build 2024.04.03 - MSVC 64-bit
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win64-msvc.zip[Download Here]
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win64-msvc.zip[Download from Github]
 
 .Obsidian V21 Build 2024.04.03 - MinGW 32-bit
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win32-mingw.zip[Download Here]
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win32-mingw.zip[Download from Github]
 
 == Addons
 
 Here are some addons that can help add new features to Obsidian or enhance existing ones. Unless otherwise noted, these require the latest stable version to use.
 
+.EDGE-Classic Enhancements (Beta) - By Lobo
+* Adds the following modules when EDGE-Classic is the selected port:
+** Mission Story Generator
+** DDF Procedural Gotcha Boss Generator
+** Ambient FX (fog, dynamic lights, sounds)
+** Pandemic Jokewad Mode
+* https://www.mediafire.com/file/oqd9vb2hk1b75ul/ECaddon.oaf/file[Download from Mediafire]
+
+NOTE: This addon requires Obsidian v21 or higher!
+
 .DoomRLA Pickups (Beta) - By xBEEKAYRANDEEx
 * Adds items from Doom Roguelike Arsenal to the pickups table and allows the user to change their probability of appearing
 * Current options: Modpacks, Supply Crates, Basic Armors and Rare Armors
 * Requires Doom 1/Ultimate Doom/Doom 2/Final Doom for the Game selection and "ZDoom Family" for the Port selection
-* https://obsidian-level-maker.github.io/addons/DoomRLA_pickups.pk3[Download Here]
+* https://obsidian-level-maker.github.io/addons/DoomRLA_pickups.pk3[Download from Github.io]
 
 .Heathen's Maze (Beta) - By Craneo
 * Greatly expands the available content for Heretic with new themes, materials, and prefabs
 * Requires Heretic for the Game selection and "ZDoom Family" for the Port selection
-* https://obsidian-level-maker.github.io/addons/Heathens_maze.pk3[Download Here]
+* https://obsidian-level-maker.github.io/addons/Heathens_maze.pk3[Download from Github.io]
 
 .Obsidian Jukebox - By Simon-v
 * Adds randomly selected MIDIs from a large variety of games
 * Requires Doom 1/Ultimate Doom/Doom 2/Final Doom for the Game selection. Ports with ACS support will also see the name of the current track being played
-* https://simonvolpert.com/files/obsidian_jukebox.pk3[Download Here]
+* https://simonvolpert.com/files/obsidian_jukebox.pk3[Download from simonvolpert.com]
 
 NOTE: Do not combine with other modules that shuffle or otherwise change music!
 
 .SilentZorah's Jukebox - By Craneo
 * Modeled after Simon-v's jukebox, this exclusively features tracks by https://zorasoft.net/[SilentZorah]
 * Requires Doom 1/Ultimate Doom/Doom 2/Final Doom for the Game selection. Ports with ACS support will also see the name of the current track being played
-* https://obsidian-level-maker.github.io/addons/SilentZorahs_jukebox.pk3[Download Here]
+* https://obsidian-level-maker.github.io/addons/SilentZorahs_jukebox.pk3[Download from Github.io]
 
 NOTE: Do not combine with other modules that shuffle or otherwise change music!
 
 .Delta Resource Pack - By MsrSgtShooterPerson
 * Adds new textures, prefabs, and themes based on hidfan's Doom 3 texture rips and Craneo's Doom 3 texture conversion for Doom.
 * Requires Doom 1/Ultimate Doom/Doom 2/Final Doom for the Game selection and "ZDoom Family" for the Port selection
-* https://github.com/GTD-Carthage/Obsidian-Addons/tree/main/addon_delta_resource_pack[Repo link here.] Packaging instructions can be found https://github.com/GTD-Carthage/Obsidian-Addons[here].
+* https://github.com/GTD-Carthage/Obsidian-Addons/tree/main/addon_delta_resource_pack[Github repo link here.] Packaging instructions can be found https://github.com/GTD-Carthage/Obsidian-Addons[here].
 
 == Credits
 
@@ -258,6 +268,9 @@ Obsidian would not be possible without the present and past members of the Obsid
 
 .KadKad1
 * D1, D2, and Half-Life program themes
+
+.Lobo
+* EDGE-Classic Enhancement Addon
 
 === OBLIGE
 
