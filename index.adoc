@@ -67,9 +67,6 @@ The following packages are provided as a courtesy for users wanting to preview u
 
 WARNING: These come with NO guarantees of stability.
 
-.Obsidian V21 Build 2024.04.03 - MSVC 64-bit
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win64-msvc.zip[Download from Github]
-
 .Obsidian V21 Build 2024.04.03 - MinGW 32-bit
 * https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win32-mingw.zip[Download from Github]
 
