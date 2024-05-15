@@ -53,11 +53,11 @@ OBSIDIAN is a community continuation of https://oblige.sourceforge.net[OBLIGE Le
 
 The current stable version of Obsidian is V20, "Gates of Tartarus". Pre-built packages are available for both 32-bit and 64-bit Windows platforms. Compilation instructions for the Linux, BSD and Haiku OS environments can be found https://github.com/obsidian-level-maker/Obsidian/blob/obsidian/COMPILING.md[here].
 
+NOTE: Users may need to install the https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist[Microsoft Visual C++ Redsitributable] to run MSVC builds.
+
 .Obsidian V20 Build 2023.12.26 - MSVC 64-bit
 * Suitable for Windows Vista or newer.
 * https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win64-msvc.zip[Download from Github]
-
-NOTE: Users may need to install the https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist[Microsoft Visual C++ Redsitributable] to run.
 
 .Obsidian V20 Build 2023.12.26 - MinGW 32-bit
 * Suitable for Windows XP or newer. Minimum Pentium 4 CPU required.
@@ -67,8 +67,13 @@ The following packages are provided as a courtesy for users wanting to preview u
 
 WARNING: These come with NO guarantees of stability.
 
-.Obsidian V21 Build 2024.04.03 - MinGW 32-bit
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240403/obsidian-v21-win32-mingw.zip[Download from Github]
+.Obsidian V21 Build 2024.05.15 - MSVC 64-bit
+* Suitable for Windows Vista or newer.
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240515/obsidian-msvc-win64.zip[Download from Github]
+
+.Obsidian V21 Build 2024.05.15 - MSVC 32-bit
+* Suitable for Windows Vista or newer.
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20240515/obsidian-msvc-win32.zip[Download from Github]
 
 == Addons
 
