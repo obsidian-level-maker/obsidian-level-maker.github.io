@@ -47,11 +47,10 @@ OBSIDIAN is a community continuation of https://oblige.sourceforge.net[OBLIGE Le
 * Linux 32/64-bit, x86 and ARM architectures
 * BSD 32/64-bit, x86 and ARM architectures
 * MacOS 64-bit, x86 architecture (tested with Github CI builds only)
-* Haiku OS 32/64-bit, x86 architecture (console-only; GUI not supported)
 
 == Downloads
 
-The current stable version of Obsidian is V20, "Gates of Tartarus". Pre-built packages are available for both 32-bit and 64-bit Windows platforms. Compilation instructions for the Linux, BSD and Haiku OS environments can be found https://github.com/obsidian-level-maker/Obsidian/blob/obsidian/COMPILING.md[here].
+The current stable version of Obsidian is V20, "Gates of Tartarus". Pre-built packages are available for both 32-bit and 64-bit Windows platforms. Compilation instructions for the Linux and BSD environments can be found https://github.com/obsidian-level-maker/Obsidian/blob/obsidian/COMPILING.md[here].
 
 NOTE: Users may need to install the https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist[Microsoft Visual C++ Redsitributable] to run MSVC builds.
 
