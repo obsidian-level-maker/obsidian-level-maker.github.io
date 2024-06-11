@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.17">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<title>Obsidian Level Generator</title>
+<style>
+@import "css/asciidoctor.css";
+@import "fonts/source-sans-3.css";
+
+a {
+  color: #E8E8E8;
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: #F0DEA3;
+  outline: 0;
+}
+
+body {
+    background: #282827;
+    color: #E8E8E8;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+#toc ul {
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+  list-style-type: none;
+}
+
+#toc.toc2 {
+  background: #282827;
+  border-right: 0 !important;
+  text-align: right;
+  background-image: url("images/logo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: "left top";
+}
+
+#toc.toc2 > ul {
+  font-size: 1.15em;
+}
+
+@media screen and (min-width: 768px) {
+  body.toc2 {
+    padding-left: 10em;
+  }
+
+  #toc.toc2 {
+    width: 10em;
+    text-align: center;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: "center top";
+  }
+
+  #toc.toc2 > ul {
+    font-size: 1.25em;
+  }
+
+  body.toc2.toc-right {
+    padding-right: 10em;
+  }
+
+  #toc.toc2 #toctitle {
+    margin-top: 4em !important;
+  }  
+}
+
+@media screen and (min-width: 1280px) {
+  body.toc2 {
+    padding-left: 12.5em;
+  }
+
+  #toc.toc2 {
+    width: 15em;
+    text-align: center;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: "center top";
+  }
+
+  #toc.toc2 > ul {
+    font-size: 1.5em;
+  }
+
+  body.toc2.toc-right {
+    padding-right: 12.5em;
+  }
+
+  #toc.toc2 #toctitle {
+    margin-top: 5em !important;
+  }  
+}
+
+.admonitionblock > table td.content {
+  padding-left: 1.125em;
+  padding-right: 1.25em;
+  border-left: 1px solid #E8E8E8;
+  color: #E8E8E8;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  word-wrap: anywhere;
+}
+
+.admonitionblock > table td.icon .title {
+  color: #E8E8E8;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.subheader,
+.admonitionblock td.content > .title,
+.audioblock > .title,
+.exampleblock > .title,
+.imageblock > .title,
+.listingblock > .title,
+.literalblock > .title,
+.stemblock > .title,
+.openblock > .title,
+.paragraph > .title,
+.quoteblock > .title,
+table.tableblock > .title,
+.verseblock > .title,
+.videoblock > .title,
+.dlist > .title,
+.olist > .title,
+.ulist > .title,
+.qlist > .title,
+.hdlist > .title {
+  line-height: 1.45;
+  color: #F0DEA3;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+h1,
+h2,
+h3,
+#toctitle,
+.sidebarblock > .content > .title,
+h4,
+h5,
+h6 {
+  color: #F0DEA3;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+}
+</style>
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<div id="toc" class="toc2">
+<div id="toctitle"></div>
+<ul class="sectlevel1">
+  <li><a href="index.html">About</a></li>
+  <li><a href="downloads.html">Downloads</a></li>
+  <li><a href="addons.html">Addons</a></li>
+  <li><a href="credits.html">Credits</a></li>
+  <li><a href="https://discord.gg/dfqCt9v">Discord</a></li>
+  <li><a href="https://github.com/obsidian-level-maker/Obsidian">Github</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_credits">Credits</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Obsidian would not be possible without the present and past members of the Obsidian, ObAddon, and Oblige communities:</p>
+</div>
+<div class="sect2">
+<h3 id="_obsidianobaddon">OBSIDIAN/ObAddon</h3>
+<div class="ulist">
+<div class="title">Caligari87</div>
+<ul>
+<li>
+<p>Original ObAddon and Oblige 7.70 Github repository maintainer</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">MsrSgtShooterPerson</div>
+<ul>
+<li>
+<p>Upstream content repository maintainer</p>
+</li>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>Shape rules</p>
+</li>
+<li>
+<p>Modules</p>
+</li>
+<li>
+<p>Textures</p>
+</li>
+<li>
+<p>Documentation</p>
+</li>
+<li>
+<p>Multiple addons, including the Delta Resource Pack and Doom Tournament addons for Doom 1/2</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Reisal</div>
+<ul>
+<li>
+<p>Original base tweaks to Oblige v7.59</p>
+</li>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>Modules</p>
+</li>
+<li>
+<p>Textures</p>
+</li>
+<li>
+<p>Extensive name generator additions</p>
+</li>
+<li>
+<p>IWAD Mode</p>
+</li>
+<li>
+<p>Custom ENDOOM screen for generated WADs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Beed28</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Craneo</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>Textures</p>
+</li>
+<li>
+<p>Name generator contributions</p>
+</li>
+<li>
+<p>Sprites</p>
+</li>
+<li>
+<p>Improved Heretic base support and additional content</p>
+</li>
+<li>
+<p>Heathen&#8217;s Maze content expansion for Heretic</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Demios</div>
+<ul>
+<li>
+<p>Regular and decal-style textures</p>
+</li>
+<li>
+<p>Complex, sloped and 3D floor prefab creator</p>
+</li>
+<li>
+<p>CSG threshold testing</p>
+</li>
+<li>
+<p>General QA testing</p>
+</li>
+<li>
+<p>Wiki and tutorial content</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">EpicTyphlosion</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>Name generator contributions</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Frozsoul</div>
+<ul>
+<li>
+<p>Fauna module</p>
+</li>
+<li>
+<p>Psychedelic theme porting</p>
+</li>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>Most of the new GUI custom themes</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Garrett</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">josh771</div>
+<ul>
+<li>
+<p>ZScript code for flies (fauna module)</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">MogWaltz</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Scionox</div>
+<ul>
+<li>
+<p>Prefabs</p>
+</li>
+<li>
+<p>ZDoom Random Boss Generator module</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Simon-V</div>
+<ul>
+<li>
+<p>Lua normalizer</p>
+</li>
+<li>
+<p>Story generator contributions</p>
+</li>
+<li>
+<p>Patch for scanning both install and home directories for addons</p>
+</li>
+<li>
+<p>Implemented ISO conformance of Date/Time filename prefixes</p>
+</li>
+<li>
+<p>Jukebox addon</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Tapwave</div>
+<ul>
+<li>
+<p>Story generator contributions</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Dashodanger</div>
+<ul>
+<li>
+<p>UDMF Support</p>
+</li>
+<li>
+<p>SLUMP integration for Vanilla Doom</p>
+</li>
+<li>
+<p>Direct integration of historical versions of Oblige</p>
+</li>
+<li>
+<p>GUI overhaul</p>
+</li>
+<li>
+<p>Restoration of previously supported games</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Phytolizer</div>
+<ul>
+<li>
+<p>Created Filename Formatter library to parse custom prefixes</p>
+</li>
+<li>
+<p>Conversion from makefiles to CMake build system</p>
+</li>
+<li>
+<p>Enabled MSVC support for Windows native compilation</p>
+</li>
+<li>
+<p>Many optimiztions and updates of the codebase</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">HugLifeTiZ</div>
+<ul>
+<li>
+<p>XDG compliance and Flatpak compatibility prep work</p>
+</li>
+<li>
+<p>Zenity File Picker patch for bundled FLTK 1.4 (eventually accepted into upstream FLTK)</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Cubebert</div>
+<ul>
+<li>
+<p>Chex Quest 3 canon themes and other improvements</p>
+</li>
+<li>
+<p>Modules for newly supported games (CQ3, HacX, et al)</p>
+</li>
+<li>
+<p>Chex Quest 3 and Heretic skyboxes</p>
+</li>
+<li>
+<p>XBox Dashboard, ZDoom Forums, and ZDoom Forums Submerged program themes</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Morthimer McMare</div>
+<ul>
+<li>
+<p>Current Russian translation team lead</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">ika707</div>
+<ul>
+<li>
+<p>Russian translation file proofreading</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Chameleon_111</div>
+<ul>
+<li>
+<p>Russian translation file proofreading</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">hytalego</div>
+<ul>
+<li>
+<p>Provided initial version of Russian translation file</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Twin Galaxy</div>
+<ul>
+<li>
+<p>Windows 95 program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">WolVexus</div>
+<ul>
+<li>
+<p>Black Ops program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">username</div>
+<ul>
+<li>
+<p>Updated tutorial imagery</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Dan_The_Noob</div>
+<ul>
+<li>
+<p>"Dan The Noob" program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Il Str</div>
+<ul>
+<li>
+<p>Discord Dark/Light program themes</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">VoidRunner</div>
+<ul>
+<li>
+<p>Backrooms program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">4ffy</div>
+<ul>
+<li>
+<p>Vanilla-compatible Heretic sky generator fix</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">DasCake</div>
+<ul>
+<li>
+<p>ZDoom Boss Generator Script Improvement</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Baysha</div>
+<ul>
+<li>
+<p>Hot Dog program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Arcterezion</div>
+<ul>
+<li>
+<p>Arcterezion Purple program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Xenamta</div>
+<ul>
+<li>
+<p>Code Bullet program theme</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Swedra</div>
+<ul>
+<li>
+<p>Naming table contributions</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">KadKad1</div>
+<ul>
+<li>
+<p>D1, D2, and Half-Life program themes</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Lobo</div>
+<ul>
+<li>
+<p>EDGE-Classic Enhancement Addon</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_oblige">OBLIGE</h3>
+<div class="ulist">
+<div class="title">Andrew Apted</div>
+<ul>
+<li>
+<p>Creator of the original OBLIGE</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Reisal</div>
+<ul>
+<li>
+<p>DOOM prefabs</p>
+</li>
+<li>
+<p>Skulltag Monsters module</p>
+</li>
+<li>
+<p>ZDoom Beastiary module</p>
+</li>
+<li>
+<p>Doom 1/2 boss maps</p>
+</li>
+<li>
+<p>Doom 1/2 and TNT theming</p>
+</li>
+<li>
+<p>OBLIGE logo image</p>
+</li>
+<li>
+<p>Name generator additions</p>
+</li>
+<li>
+<p>Lots of useful feedback</p>
+</li>
+<li>
+<p>General encouragement and support</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Derek Braun (Dittohead)</div>
+<ul>
+<li>
+<p>DOOM tech prefabs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Doctor Nick</div>
+<ul>
+<li>
+<p>Makefile.macos file</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Enhas</div>
+<ul>
+<li>
+<p>ZDoom Marines module</p>
+</li>
+<li>
+<p>Stealth Monsters module</p>
+</li>
+<li>
+<p>Level Control module</p>
+</li>
+<li>
+<p>Various Skulltag stuff</p>
+</li>
+<li>
+<p>Psychedelic level names</p>
+</li>
+<li>
+<p>Chex Quest game definition</p>
+</li>
+<li>
+<p>DOOM "gotcha" style boss map</p>
+</li>
+<li>
+<p>Lots of useful feedback</p>
+</li>
+<li>
+<p>Fixes and tweaks</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Jared Blackburn (blackjar)</div>
+<ul>
+<li>
+<p>Hexen theming</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Jon Vail (40oz)</div>
+<ul>
+<li>
+<p>Extensive work on name generator</p>
+</li>
+<li>
+<p>Cyberdemon arena map</p>
+</li>
+<li>
+<p>DOOM prefabs</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Sam Trenholme</div>
+<ul>
+<li>
+<p>Heretic theming</p>
+</li>
+<li>
+<p>Stair-builder error fix</p>
+</li>
+<li>
+<p>Lots of feedback and support</p>
+</li>
+<li>
+<p>Numerous fixes</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">LakiSoft</div>
+<ul>
+<li>
+<p>Heretic boss maps</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">SylandroProbopas</div>
+<ul>
+<li>
+<p>DOOM 1 boss map</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">DoomJedi</div>
+<ul>
+<li>
+<p>Wolf3D testing</p>
+</li>
+<li>
+<p>List of Wolf3D mods</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">esselfortium</div>
+<ul>
+<li>
+<p>Encouragement and detailed feedback</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">gggmork</div>
+<ul>
+<li>
+<p>Beta testing and detailed feedback</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">flyingdeath</div>
+<ul>
+<li>
+<p>Various feedback and useful suggestions</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">leilei</div>
+<ul>
+<li>
+<p>Initial Amulets &amp; Armor definition</p>
+</li>
+<li>
+<p>Various feedback</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">thesleeve</div>
+<ul>
+<li>
+<p>Monster placement analysis</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

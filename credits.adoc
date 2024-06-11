@@ -1,0 +1,237 @@
+:stylesdir: css
+:stylesheet: obsidian.css
+:imagesdir: images
+:nofooter:
+:title: Obsidian Level Generator
+:toc: left
+:toclevels: 1
+:toc-title: 
+:favicon: images/favicon.png
+
+== Credits
+
+Obsidian would not be possible without the present and past members of the Obsidian, ObAddon, and Oblige communities:
+
+=== OBSIDIAN/ObAddon
+
+.Caligari87
+* Original ObAddon and Oblige 7.70 Github repository maintainer
+
+.MsrSgtShooterPerson
+* Upstream content repository maintainer
+* Prefabs
+* Shape rules
+* Modules
+* Textures
+* Documentation
+* Multiple addons, including the Delta Resource Pack and Doom Tournament addons for Doom 1/2
+
+.Reisal
+* Original base tweaks to Oblige v7.59
+* Prefabs
+* Modules
+* Textures
+* Extensive name generator additions
+* IWAD Mode
+* Custom ENDOOM screen for generated WADs
+
+.Beed28
+* Prefabs
+
+.Craneo
+* Prefabs
+* Textures
+* Name generator contributions
+* Sprites
+* Improved Heretic base support and additional content
+* Heathen's Maze content expansion for Heretic
+
+.Demios
+* Regular and decal-style textures
+* Complex, sloped and 3D floor prefab creator
+* CSG threshold testing
+* General QA testing
+* Wiki and tutorial content
+
+.EpicTyphlosion
+* Prefabs
+* Name generator contributions
+
+.Frozsoul
+* Fauna module
+* Psychedelic theme porting
+* Prefabs
+* Most of the new GUI custom themes
+
+.Garrett
+* Prefabs
+
+.josh771
+* ZScript code for flies (fauna module)
+
+.MogWaltz
+* Prefabs
+
+.Scionox
+* Prefabs
+* ZDoom Random Boss Generator module
+
+.Simon-V
+* Lua normalizer
+* Story generator contributions
+* Patch for scanning both install and home directories for addons
+* Implemented ISO conformance of Date/Time filename prefixes
+* Jukebox addon
+
+.Tapwave
+* Story generator contributions
+
+.Dashodanger
+* UDMF Support
+* SLUMP integration for Vanilla Doom
+* Direct integration of historical versions of Oblige
+* GUI overhaul
+* Restoration of previously supported games
+
+.Phytolizer
+* Created Filename Formatter library to parse custom prefixes
+* Conversion from makefiles to CMake build system
+* Enabled MSVC support for Windows native compilation
+* Many optimiztions and updates of the codebase
+
+.HugLifeTiZ
+* XDG compliance and Flatpak compatibility prep work
+* Zenity File Picker patch for bundled FLTK 1.4 (eventually accepted into upstream FLTK)
+
+.Cubebert
+* Chex Quest 3 canon themes and other improvements
+* Modules for newly supported games (CQ3, HacX, et al)
+* Chex Quest 3 and Heretic skyboxes
+* XBox Dashboard, ZDoom Forums, and ZDoom Forums Submerged program themes
+
+.Morthimer McMare
+* Current Russian translation team lead
+
+.ika707
+* Russian translation file proofreading
+
+.Chameleon_111
+* Russian translation file proofreading
+
+.hytalego
+* Provided initial version of Russian translation file
+
+.Twin Galaxy
+* Windows 95 program theme
+
+.WolVexus
+* Black Ops program theme
+
+.username
+* Updated tutorial imagery
+
+.Dan_The_Noob
+* "Dan The Noob" program theme
+
+.Il Str
+* Discord Dark/Light program themes
+
+.VoidRunner
+* Backrooms program theme
+
+.4ffy
+* Vanilla-compatible Heretic sky generator fix
+
+.DasCake
+* ZDoom Boss Generator Script Improvement
+
+.Baysha
+* Hot Dog program theme
+
+.Arcterezion
+* Arcterezion Purple program theme
+
+.Xenamta
+* Code Bullet program theme
+
+.Swedra
+* Naming table contributions
+
+.KadKad1
+* D1, D2, and Half-Life program themes
+
+.Lobo
+* EDGE-Classic Enhancement Addon
+
+=== OBLIGE
+
+.Andrew Apted
+* Creator of the original OBLIGE
+
+.Reisal
+* DOOM prefabs
+* Skulltag Monsters module
+* ZDoom Beastiary module
+* Doom 1/2 boss maps
+* Doom 1/2 and TNT theming
+* OBLIGE logo image
+* Name generator additions
+* Lots of useful feedback
+* General encouragement and support
+
+.Derek Braun (Dittohead)
+* DOOM tech prefabs
+
+.Doctor Nick
+* Makefile.macos file
+
+.Enhas
+* ZDoom Marines module
+* Stealth Monsters module
+* Level Control module
+* Various Skulltag stuff
+* Psychedelic level names
+* Chex Quest game definition
+* DOOM "gotcha" style boss map
+* Lots of useful feedback
+* Fixes and tweaks
+
+.Jared Blackburn (blackjar)
+* Hexen theming
+
+.Jon Vail (40oz)
+* Extensive work on name generator
+* Cyberdemon arena map
+* DOOM prefabs
+
+.Sam Trenholme
+* Heretic theming
+* Stair-builder error fix
+* Lots of feedback and support
+* Numerous fixes
+
+.LakiSoft
+* Heretic boss maps
+
+.SylandroProbopas
+* DOOM 1 boss map
+
+.DoomJedi
+* Wolf3D testing
+* List of Wolf3D mods
+
+.esselfortium
+* Encouragement and detailed feedback
+
+.gggmork
+* Beta testing and detailed feedback
+
+.flyingdeath
+* Various feedback and useful suggestions
+
+.leilei
+* Initial Amulets & Armor definition
+* Various feedback
+
+.thesleeve
+* Monster placement analysis
