@@ -1,6 +1,40 @@
 @import "css/asciidoctor.css";
 @import "fonts/source-sans-3.css";
 
+/* override Asciidoctor default */
+#content {
+  max-width: none;
+}
+
+.sect1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+}
+
+.navbar {
+  width: 100%;  /* i'm assuming full width */
+  height: 50px; /* change it to desired height */
+  background-color: #282827; /* change to desired color */
+  top:0;
+  position: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar > a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
 a {
   color: #E8E8E8;
 }
@@ -19,81 +53,6 @@ body {
     font-weight: 400;
     font-style: normal;
   } 
-
-#toc ul {
-  font-family: "Source Sans 3";
-  font-weight: 700;
-  font-style: normal;
-  list-style-type: none;
-}
-
-#toc.toc2 {
-  background: #282827;
-  border-right: 0 !important;
-  text-align: right;
-  background-image: url("images/logo.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: "left top";
-}
-
-#toc.toc2 > ul {
-  font-size: 1.15em;
-}
-
-@media screen and (min-width: 768px) {
-  body.toc2 {
-    padding-left: 10em;
-  }
-
-  #toc.toc2 {
-    width: 10em;
-    text-align: center;
-    background-image: url("images/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: "center top";
-  }
-
-  #toc.toc2 > ul {
-    font-size: 1.25em;
-  }
-
-  body.toc2.toc-right {
-    padding-right: 10em;
-  }
-
-  #toc.toc2 #toctitle {
-    margin-top: 4em !important;
-  }  
-}
-
-@media screen and (min-width: 1280px) {
-  body.toc2 {
-    padding-left: 12.5em;
-  }
-
-  #toc.toc2 {
-    width: 15em;
-    text-align: center;
-    background-image: url("images/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: "center top";
-  }
-
-  #toc.toc2 > ul {
-    font-size: 1.5em;
-  }
-
-  body.toc2.toc-right {
-    padding-right: 12.5em;
-  }
-
-  #toc.toc2 #toctitle {
-    margin-top: 5em !important;
-  }  
-}
 
 .admonitionblock > table td.content {
   padding-left: 1.125em;

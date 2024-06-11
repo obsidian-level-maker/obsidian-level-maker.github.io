@@ -1,0 +1,18 @@
+:stylesdir: css
+:stylesheet: obsidian.css
+:imagesdir: images
+:nofooter:
+:title: Obsidian Level Generator
+:favicon: images/favicon.png
+
+++++
+<div class="navbar">
+  <a href="index.html"><img class="logo" src="images/logo.png" style="height:45px"></a>
+  <a href="downloads.html"><img class="logo" src="images/download.png" style="height:25px"></a>
+  <a href="addons.html"><img class="logo" src="images/addons.png" style="height:25px"></a>
+  <a href="credits.html"><img class="logo" src="images/credits.png" style="height:25px"></a>
+  <a href="play.html"><img class="logo" src="images/play.png" style="height:25px"></a>
+  <a href="https://discord.gg/dfqCt9v"><img class="logo" src="images/discord.png" style="height:25px"></a>
+  <a href="https://github.com/obsidian-level-maker/Obsidian"><img class="logo" src="images/github.png" style="height:25px"></a>
+</div>
+++++
