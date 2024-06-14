@@ -1,7 +1,29 @@
 @import "css/asciidoctor.css";
 @import "fonts/source-sans-3.css";
 
-/* override Asciidoctor default */
+
+.edge {
+  border: 0;
+  overflow: hidden;
+  display: inline;
+  width: 320px;
+  height: 240px;
+}
+
+@media screen and (min-width: 700px) and (min-height: 530px) {
+  .edge {
+    width: 640px;
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (min-height: 770px) {
+  .edge {
+    width: 1280px;
+    height: 720px;
+  }
+}
+
 #content {
   max-width: none;
 }
@@ -13,9 +35,9 @@
 }
 
 .navbar {
-  width: 100%;  /* i'm assuming full width */
-  height: 50px; /* change it to desired height */
-  background-color: #282827; /* change to desired color */
+  width: 100%;
+  height: 50px;
+  background-color: #282827;
   top:0;
   position: fixed;
   overflow: hidden;
