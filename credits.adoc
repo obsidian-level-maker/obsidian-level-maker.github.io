@@ -172,6 +172,9 @@ Obsidian would not be possible without the present and past members of the Obsid
 .Lobo
 * EDGE-Classic Enhancement Addon
 
+.DaveFriedLiver
+* Tooltip updates and grammar corrections
+
 === OBLIGE
 
 .Andrew Apted
