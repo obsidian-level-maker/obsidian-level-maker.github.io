@@ -41,12 +41,10 @@ The following packages are provided as a courtesy for users wanting to preview u
 
 WARNING: These come with NO guarantees of stability.
 
-.Build 2024.10.25 - MinGW 64-bit
-* Suitable for Windows Vista or newer.
-* Expected SHA-256 hash 9df41a3ac6559c16fefc21e55cd6c8f2cc2dec40f297a545b61f692519e3dd71
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20241025/obsidian-v21-win64.zip[Download from Github]
+.Build 2025.01.16 - MinGW 64-bit
+* Expected SHA-256 hash f34268666470f225152750d99fe813522a19caa34851687ab633cacf77cb64b8
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20250116/obsidian-v21-win64.zip[Download from Github]
 
-.Build 2024.10.25 - MinGW 32-bit
-* Suitable for Windows XP or newer. Minimum Pentium 4 CPU required.
-* Expected SHA-256 hash 97f0ff7ec1a7b305ba9081999557d0dd3d6f618ff8fdbb966966f8e9f33a0435
-* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20241025/obsidian-v21-win32.zip[Download from Github]
+.Build 2025.01.16 - MinGW 32-bit
+* Expected SHA-256 hash cd603a4ca7eb4899f5eb27294496ddc5d57db7b186766509be6a47473f9c7440
+* https://github.com/obsidian-level-maker/Obsidian/releases/download/Obsidian-v21-20250116/obsidian-v21-win32.zip[Download from Github]
