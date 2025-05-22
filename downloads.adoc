@@ -25,14 +25,14 @@ WARNING: DO NOT UPDATE INTO AN EXISTING FOLDER - THIS IS NOT A SUPPORTED UPGRADE
 
 Pre-built packages are available for both 32-bit and 64-bit Windows platforms. Compilation instructions for the Linux and BSD environments can be found https://github.com/obsidian-level-maker/Obsidian/blob/obsidian/COMPILING.md[here].
 
-.Build 2024.08.16 - MinGW 64-bit
+.Build 2025.05.22 - MinGW 64-bit
 * Suitable for Windows Vista or newer.
-* Expected SHA-256 hash a90a0faad5473c7d8ec643c1ce089d8f65ca889437bde78dcb9ba0dc11d8cf18
+* Expected SHA-256 hash a68b12be69e7b43e4fde8637c80ab41b1fc61cfa1512f666b6420ff4398b11c9
 * https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win64.zip[Download from Github]
 
-.Build 2024.08.16 - MinGW 32-bit
+.Build 2025.05.22 - MinGW 32-bit
 * Suitable for Windows XP or newer. Minimum Pentium 4 CPU required.
-* Expected SHA-256 hash 20a3902ea39d9b06e25948a41a1dc9d5acc58d5c39bf4c36f447555260ca0abb
+* Expected SHA-256 hash 4e07902fbbbada3dc1b4763760fe2f6a6d766da353d196523ad56ba2cb56d94a
 * https://github.com/obsidian-level-maker/Obsidian/releases/latest/download/obsidian-v20-win32.zip[Download from Github]
 
 === Unstable Release - Obsidian v21
